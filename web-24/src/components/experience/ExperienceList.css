@@ -1,0 +1,55 @@
+.experience-list {
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    
+  }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eaeaea;
+    position: relative; 
+  }
+  .experience-list h2{
+    transform: translate(5%);
+  }
+  
+  .add-experience-btn {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    padding: 10px 15px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    transform: translate(50%%); 
+  }
+  
+    .add-experience-btn {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .add-experience-btn:before {
+      content: "+";
+      font-size: 1.5rem;
+      color: #007bff;
+    }
+    .cardTitle{
+      margin: 20px;
+    }
+    .plus{
+      margin-right: 20px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }

@@ -1,0 +1,15 @@
+.bi-three-dots{
+    padding-left: 7px;
+    padding-right: 10px;
+}
+
+.btn-add-comment{
+    border: 1px solid #ddd;
+
+}
+.no-more-comments{
+    text-align: left;
+}
+.input-comment{
+    background: #eeeeee;
+}

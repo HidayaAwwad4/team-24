@@ -1,0 +1,53 @@
+.experience {
+    display: flex;
+    align-items: center;
+    background-color:white ;
+    margin-bottom: 10px;
+    padding: 15px;
+    margin:10px;
+    border-radius: 8px;
+  }
+  
+  
+  .experience-icon-wrapper {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  .image11{
+    margin-top: 25px;
+  }
+  .experience-icon {
+    width: 100%;
+  }
+  
+  .experience-info {
+    flex-grow: 1;
+  }
+  
+  .experience-company {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    margin-top: 20px;
+  }
+  
+  .experience-duration, .experience-duration-detail {
+    font-size: 0.875rem;
+    color: #666;
+    display: inline; 
+    margin-right: 10px; 
+  }
+  
+  .experience-edit-btn {
+    border: 2px solid transparent; 
+    color: #007bff;
+    font-size: 14px;
+    padding: 8px 16px; 
+    background-color: transparent; 
+    cursor: pointer;
+    display: inline; 
+  }
+  

@@ -1,0 +1,42 @@
+.posting{
+    width: 100%;
+    background:#ffffff;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.card-header{
+    padding: 0;
+    background: white;
+}
+.user-name{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.smallspan{
+    font-weight: normal;
+    color: #6b6969;
+    font-size: 15px;
+}
+
+.smallp{
+    font-size: 14px;
+    color: #6b6969;
+    text-align: left;
+}
+
+.text-post{
+    margin:10px 0;
+    text-align: left;
+    color: #6b6969;
+}
+.image-post {
+    width: 100%; 
+    border-radius: 10px; 
+}
+.liked,.comments,.share{
+    font-size: 13px;
+}
+

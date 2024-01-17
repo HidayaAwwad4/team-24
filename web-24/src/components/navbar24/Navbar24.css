@@ -1,0 +1,36 @@
+.container-fluid{
+    margin: 0 50px;
+}
+.plogo{
+    margin-right:20px;
+}
+.logo{
+    padding: 7px 9px;
+}
+
+.form-control{
+    border-left: none; 
+}
+.form-control::placeholder{
+    color: #a8a9a9;
+}
+
+.icons ,.dropdown , .nav-item{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.notification {
+    position: relative;
+}
+
+.notification::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #d14141;
+    border-radius: 50%;
+}
